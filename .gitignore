@@ -1,0 +1,12 @@
+# Node dependencies
+**/node_modules/
+
+# Secret keys
+**/.env
+
+# Build outputs
+**/dist/
+**/build/
+
+# OS junk
+.DS_Store
