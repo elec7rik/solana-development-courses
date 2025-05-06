@@ -7,8 +7,8 @@
 // add to tx
 // send tx and log it
 
-import { Connection, LAMPORTS_PER_SOL, PublicKey, Transaction, TransactionInstruction, clusterApiUrl, sendAndConfirmTransaction, } from "@solana/web3.js";
 import "dotenv/config";
+import { Connection, LAMPORTS_PER_SOL, PublicKey, Transaction, TransactionInstruction, clusterApiUrl, sendAndConfirmTransaction, } from "@solana/web3.js";
 import { airdropIfRequired, getKeypairFromEnvironment } from "@solana-developers/helpers";
 
 const connection = new Connection(clusterApiUrl("devnet"));
