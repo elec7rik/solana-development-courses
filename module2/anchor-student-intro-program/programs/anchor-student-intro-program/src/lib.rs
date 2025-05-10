@@ -29,7 +29,7 @@ pub mod anchor_student_intro_program {
         Ok(())
     }
 
-    pub fn update_intro(ctx: Context<UpdateIntro>, message: String) -> Result<()> {
+    pub fn update_intro(ctx: Context<UpdateIntro>, name: String, message: String) -> Result<()> {
         // require!(name.len() <= MAX_NAME_LENGTH, StudentAccountError::InvalidName);
         require!(message.len() <= MAX_MESSAGE_LENGTH, StudentAccountError::InvalidMessage);
         let student_account = &mut ctx.accounts.student_account;
