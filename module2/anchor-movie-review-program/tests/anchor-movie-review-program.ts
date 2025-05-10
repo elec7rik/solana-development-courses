@@ -53,23 +53,19 @@ describe("anchor-movie-review-program", () => {
       "new boring test-movie",
     ).rpc();
   
+    
     const account = await program.account.movieAccountState.fetch(moviePda);
-    console.log(account);
 
-    // expect(movie.rating === 5);
-    // expect(movie.title === account.title);
-    // expect(movie.description === "new boring test-movie");
-    // expect(account.reviewer === provider.wallet.publicKey);
+    // console.log(account);
+
+    expect(movie.rating === 5);
+    expect(movie.title === account.title);
+    expect(movie.description === "new boring test-movie");
+    expect(account.reviewer === provider.wallet.publicKey);
   });
 
   it("movie review is deleted", async () => {
-    const tx = await program.methods
-    .deleteMovieReview(movie.title)
-    .accounts({
-      movieReview: moviePda, // must match Rust: pub movie_review
-      reviewer: provider.wallet.publicKey,
-      systemProgram: anchor.web3.SystemProgram.programId,
-    })
-    .rpc();
+    // console.log(moviePda[0]);
+    const tx = await program.methods.deleteMovieReview(movie.title).rpc();
   });
 });

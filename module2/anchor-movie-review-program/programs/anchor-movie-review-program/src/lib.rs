@@ -65,7 +65,7 @@ pub mod anchor_movie_review_program {
 
     // Close
     pub fn delete_movie_review(_ctx: Context<DeleteMovieReview>, title: String) -> Result<()> {
-        msg!("{} Movie Review Account closed", title);
+        // msg!("{} Movie Review Account closed", title);
         Ok(())
     }
     
@@ -107,7 +107,7 @@ pub struct UpdateMovieReview<'info> {
 }
 
 #[derive(Accounts)]
-#[instruction(rating:u8, title:String)]
+#[instruction(title:String)]
 pub struct DeleteMovieReview<'info> {
     #[account(
         mut,
