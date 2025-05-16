@@ -11,4 +11,13 @@
 # OS junk
 .DS_Store
 
+# Rust & Anchor build artifacts
+**/target/
+**/.anchor/
+
+# Optional: lock files (if not using both package managers)
+# yarn.lock
+# package-lock.json
+
+# Temporary course files (if intentionally ignored)
 module1/lesson5/
