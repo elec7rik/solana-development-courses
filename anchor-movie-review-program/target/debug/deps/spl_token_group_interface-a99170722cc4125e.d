@@ -1,0 +1,10 @@
+/Users/vikkk/courses/anchor-movie-review-program/target/debug/deps/spl_token_group_interface-a99170722cc4125e.d: /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/lib.rs /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/error.rs /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/instruction.rs /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/state.rs
+
+/Users/vikkk/courses/anchor-movie-review-program/target/debug/deps/libspl_token_group_interface-a99170722cc4125e.dylib: /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/lib.rs /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/error.rs /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/instruction.rs /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/state.rs
+
+/Users/vikkk/courses/anchor-movie-review-program/target/debug/deps/libspl_token_group_interface-a99170722cc4125e.rlib: /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/lib.rs /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/error.rs /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/instruction.rs /Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/state.rs
+
+/Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/lib.rs:
+/Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/error.rs:
+/Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/instruction.rs:
+/Users/vikkk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-group-interface-0.5.0/src/state.rs:

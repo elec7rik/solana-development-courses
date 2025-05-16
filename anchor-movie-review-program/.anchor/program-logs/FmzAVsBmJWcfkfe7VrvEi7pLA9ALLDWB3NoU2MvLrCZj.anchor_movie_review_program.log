@@ -1,0 +1,77 @@
+Streaming transaction logs mentioning FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj. Confirmed commitment
+Transaction executed in slot 3:
+  Signature: 4TPWNLR4oNDWAXWGBLknJrZiU2kUeg6X1ZAtvE1taPCvz5zfTi23XoNmn3f1FLTS2VzARWy4L3nRGSSSgQh1A9FT
+  Status: Ok
+  Log Messages:
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj invoke [1]
+    Program log: Instruction: InitializeTokenMint
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+    Program log: Instruction: InitializeMint2
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2780 of 191673 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program log: Token Mint Initialized
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj consumed 12830 of 200000 compute units
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj success
+Transaction executed in slot 4:
+  Signature: 518kavPmAf4D1CBnDWoTrCnaskK3SaAwQema8JHxbgRh3Bg6uRUKiSZQ5cyPmyrftJMYfUU467dnwzugjvoUydso
+  Status: Ok
+  Log Messages:
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj invoke [1]
+    Program log: Instruction: AddMovieReview
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+    Program log: Create
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program log: Instruction: GetAccountDataSize
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 174704 compute units
+    Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program 11111111111111111111111111111111 invoke [3]
+    Program 11111111111111111111111111111111 success
+    Program log: Initialize the associated token account
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program log: Instruction: InitializeImmutableOwner
+    Program log: Please upgrade to SPL Token 2022 for immutable owner support
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 168091 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program log: Instruction: InitializeAccount3
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 164209 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 21889 of 181601 compute units
+    Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+    Program log: Movie review account created
+    Program log: Title: Just a test movie
+    Program log: Description: Wow what a good movie it was real great
+    Program log: Rating: 5
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+    Program log: Instruction: MintTo
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4492 of 148789 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program log: Minted Tokens
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj consumed 56528 of 200000 compute units
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj success
+Transaction executed in slot 5:
+  Signature: 2N9fP5pHTZmR2NVv7oWGB5ZYEBdcwcQPiQbDMEAgATyf8WLBck8fQMdbDHdBPKgZdBAdKJaDTTgXd9mZ4SAoQ3q5
+  Status: Ok
+  Log Messages:
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj invoke [1]
+    Program log: Instruction: UpdateMovieReview
+    Program log: Movie review account space reallocated
+    Program log: Title: Just a test movie
+    Program log: Description: Wow this is new
+    Program log: Rating: 4
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj consumed 9883 of 200000 compute units
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj success
+Transaction executed in slot 6:
+  Signature: 5H4osqPuUqJ8N3Y2u2UgY4ePUaa2s2DBNR3SN6vQjsFBVuykc83e87c7kUe1dJk121GNVDuYn5Cr5MCwxYnrCYC8
+  Status: Ok
+  Log Messages:
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj invoke [1]
+    Program log: Instruction: DeleteMovieReview
+    Program log: Movie review for Just a test movie deleted
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj consumed 6951 of 200000 compute units
+    Program FmzAVsBmJWcfkfe7VrvEi7pLA9ALLDWB3NoU2MvLrCZj success
