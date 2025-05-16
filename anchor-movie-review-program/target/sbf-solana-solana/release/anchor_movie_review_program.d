@@ -1,1 +1,0 @@
-/Users/vikkk/courses/anchor-movie-review-program/target/sbf-solana-solana/release/anchor_movie_review_program.so: /Users/vikkk/courses/anchor-movie-review-program/programs/anchor-movie-review-program/src/constants.rs /Users/vikkk/courses/anchor-movie-review-program/programs/anchor-movie-review-program/src/lib.rs
